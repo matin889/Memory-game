@@ -15,14 +15,14 @@ body {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   place-items: center;
-  row-gap: 10px;
+  row-gap: 5px;
   perspective: 1000px;
 }
 
 .icon-holder {
-  width: 40px;
-  height: 40px;
-  border: 2px solid white;
+  width: 80px;
+  height: 80px;
+  /* border: 2px solid white; */
   padding: 2px;
   position: relative;
   transform: scale(1);
