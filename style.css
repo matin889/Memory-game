@@ -52,6 +52,15 @@ img {
 .back {
   transform: rotateY(180deg);
 }
+@media (orientation: landscape) {
+  #game-area {
+    grid-template-columns: repeat(8, 1fr);
+  }
+  #icon-holder {
+    width: 60px;
+    height: 60px;
+  }
+}
 @media (min-width: 1440px) {
   .icon-holder {
     width: 300px;
