@@ -20,8 +20,8 @@ body {
 }
 
 .icon-holder {
-  width: 80px;
-  height: 80px;
+  width: 90px;
+  height: 90px;
   /* border: 2px solid white; */
   padding: 2px;
   position: relative;
@@ -57,20 +57,20 @@ img {
     grid-template-columns: repeat(8, 1fr);
   }
   #icon-holder {
-    width: 60px;
-    height: 60px;
+    width: 65px;
+    height: 65px;
   }
 }
 @media (min-width: 1440px) {
   .icon-holder {
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
   }
 }
 @media (min-width: 1024px) {
   .icon-holder {
-    width: 160px;
-    height: 160px;
+    width: 200px;
+    height: 200px;
   }
 }
 @media (min-width: 768px) {
@@ -78,8 +78,8 @@ img {
     grid-template-columns: repeat(6, 1fr);
   }
   #icon-holder {
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
   }
 }
 
