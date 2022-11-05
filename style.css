@@ -5,7 +5,8 @@
 }
 
 body {
-  background: radial-gradient(grey, white);
+  /* background: radial-gradient(grey, white); */
+  background-color: rgb(84, 84, 229);
 }
 
 #game-area {
@@ -20,8 +21,8 @@ body {
 }
 
 .icon-holder {
-  width: 90px;
-  height: 90px;
+  width: 80px;
+  height: 80px;
   /* border: 2px solid white; */
   padding: 2px;
   position: relative;
@@ -61,26 +62,13 @@ img {
     height: 65px;
   }
 }
-@media (min-width: 1440px) {
-  .icon-holder {
-    width: 400px;
-    height: 400px;
-  }
-}
+
 @media (min-width: 1024px) {
   .icon-holder {
-    width: 200px;
-    height: 200px;
+    width: 260px;
+    height: 260px;
   }
 }
-@media (min-width: 768px) {
-  #game-area {
-    grid-template-columns: repeat(6, 1fr);
-  }
-  #icon-holder {
-    width: 160px;
-    height: 160px;
-  }
-}
+
 
 
